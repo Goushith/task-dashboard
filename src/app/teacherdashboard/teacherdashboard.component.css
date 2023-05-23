@@ -1,0 +1,226 @@
+nav {
+    background: aliceblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  label.logo {
+    color: rgb(37, 0, 123);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 500;
+    line-height: 80px;
+    padding: 0 50px;
+    text-transform: uppercase;
+  } 
+  
+  nav ul {
+    gap: 30px;
+    float: right;
+    margin-right: 20px;  
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 10px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  a.active, a:hover {
+    background: rgb(49, 68, 160);
+    transition: 0.5s;
+  }
+  
+
+
+
+ .datas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box{
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+.second-box{
+  /* background-color: #ef1111; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second-box .weeklysales{
+  width: 350px;
+  height: 70vh;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.studentquery{
+  width: 500px;
+  height: 70vh;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+.right-nav{
+   
+  /* position: ; */
+   /* right: 0; */
+  /* display: flex; */
+  /* align-items: flex-end;
+  justify-content: end;
+  z-index: 1; */
+  background-color: rgb(242, 242, 242);
+  width: 20.5625rem;
+  height: 300vh;
+}
+
+
+.right-nav .right-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+
+.right-nav .notification{
+  padding: 20px;
+  /* margin-bottom: 650px; */
+  /* margin-right: 10px; */
+  margin-left: 20px;
+  /* margin-top: 50px; */
+  border-radius: 8px;
+  width:300px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+}
+
+.right-nav .notification h3{
+  /* margin-top: 30px; */
+  margin-left: 20px;
+}
+
+
+.view-btn{
+  border: none;
+  background-color: rgba(135, 212, 186, 0.57);
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.decline-btn{
+  border: none;
+  background-color: rgba(212, 135, 135, 0.57);
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.rightnav-nav {
+  list-style: none;
+  padding: 0.938rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: calc(100% - 3.65rem); */
+  cursor: pointer;
+}
+.rightnav-nav .rightnav-nav-item {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  color: #020101;
+  border-radius: 0.6254rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link .rightnav-nav-icon {
+  font-size: 12px;
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 0.5rem;
+  text-align: center;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link .rightnav-nav-text {
+  margin-left: 1.5rem;
+  font-size: 12px;
+}
+.rightnav-nav .rightnav-nav-item:hover .rightnav-nav-link {
+  background-color: #e0e0e0;
+  color: black;
+}
+.active {
+  background-color: #a5a5a5;
+}
+.active .rightnav-nav-icon, .active .rightnav-nav-text {
+  color: #000;
+  
+}
+
+
+
+.container {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.table-wrapper table {
+  margin: 50px 0 20px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-wrapper table th,
+.table-wrapper table td {
+  padding: 10px;
+  min-width: 75px;
+}
+
+.table-wrapper table th {
+  color: #fff;
+  background: #919090;
+}
+
+.table-wrapper table tbody tr:nth-of-type(even) > * {
+  background:  #edf2f4;
+}
+
+.table-wrapper table td:first-child {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-gap: 10px;
+  text-align: left;
+}

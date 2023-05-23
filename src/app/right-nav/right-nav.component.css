@@ -1,0 +1,200 @@
+.right-nav{
+   
+    /* position: ; */
+     /* right: 0; */
+    /* display: flex; */
+    /* align-items: flex-end;
+    justify-content: end;
+    z-index: 1; */
+    background-color: rgb(242, 242, 242);
+    width: 20.5625rem;
+    height: 300vh;
+}
+
+
+.right-nav .right-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.upload-btn{
+    /* position: absolute; */
+    background-color: orangered;
+    font-size: 12px;
+    border: none;
+    width: 8rem;
+    /* margin-left: 20px; */
+    padding: 12px;
+    border-radius: 8px;
+    color: #FFF;
+    /* margin-top: 12rem; */
+    /* margin-left: 1.2rem; */
+    cursor: pointer;
+}
+
+.right-nav .notification{
+    padding: 20px;
+    /* margin-bottom: 650px; */
+    /* margin-right: 10px; */
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    border-radius: 8px;
+    width:300px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+.right-nav .notification h3{
+    /* margin-top: 30px; */
+    margin-left: 20px;
+}
+
+
+
+.rightnav-nav {
+    list-style: none;
+    padding: 0.938rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: calc(100% - 3.65rem); */
+    cursor: pointer;
+}
+.rightnav-nav .rightnav-nav-item {
+    width: 100%;
+    margin-bottom: 0.625rem;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: #020101;
+    border-radius: 0.6254rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link .rightnav-nav-icon {
+    font-size: 22px;
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+.rightnav-nav .rightnav-nav-item .rightnav-nav-link .rightnav-nav-text {
+    margin-left: 1.5rem;
+    font-size: 12px;
+}
+.rightnav-nav .rightnav-nav-item:hover .rightnav-nav-link {
+    background-color: #e0e0e0;
+    color: black;
+}
+.active {
+    background-color: #a5a5a5;
+}
+.active .rightnav-nav-icon, .active .rightnav-nav-text {
+    color: #000;
+    
+}
+
+
+.top-courses{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    width:300px;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.balance{
+        padding: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    width:300px;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.balance .box1{
+    background-color: #ff000029;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.balance .box2{
+    background-color: #ca2fbd29;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.balance .box3{
+    background-color: #5abce929;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.balance .box4{
+    background-color: #36d38229;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.balance .box1 i{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.balance .box2 i{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.balance .box3 i{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.balance .box4 i{
+    background-color: #046835;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.withdraw{
+    position: absolute;
+    background-color: #53009C;
+    font-size: 12px;
+    border: none;
+    width: 16.5rem;
+    padding: 15px;
+    border-radius: 8px;
+    color: #FFF;
+    /* margin-top: 12rem; */
+    /* margin-left: 1.2rem; */
+    cursor: pointer;
+
+}
